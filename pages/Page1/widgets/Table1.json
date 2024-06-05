@@ -132,7 +132,7 @@
     "primaryColumns": {
         "image": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"image\"]))}}",
-            "onSubmit": "",
+            "onSubmit": "{{JSObject1.Table1onHoverValue();}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "image",
@@ -145,7 +145,7 @@
             "isCellVisible": true,
             "isDerived": false,
             "textSize": "0.875rem",
-            "onHoverValue": "{{JSObject1.Table1onHoverValue();}}",
+            "onHoverValue": "",
             "allowCellWrapping": false,
             "index": 7,
             "isDiscardVisible": true,
