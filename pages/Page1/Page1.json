@@ -1,7 +1,9 @@
 {
   "unpublishedPage": {
+    "id": "664df13b3b661915128e5b96",
     "name": "Page1",
     "slug": "page1",
+    "applicationId": "664df13b3b661915128e5b94",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +15,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1110,
+          "bottomRow": 930,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -64,8 +66,49 @@
         "userPermissions": []
       }
     ],
-    "userPermissions": [],
-    "policies": []
+    "userPermissions": [
+      "create:pageActions",
+      "delete:pages",
+      "manage:pages",
+      "read:pages"
+    ],
+    "policies": [
+      {
+        "permission": "create:pageActions",
+        "permissionGroups": [
+          "664df13b3b661915128e5b91",
+          "664df13b3b661915128e5b90"
+        ]
+      },
+      {
+        "permission": "manage:pages",
+        "permissionGroups": [
+          "664df13b3b661915128e5b91",
+          "664df13b3b661915128e5b90"
+        ]
+      },
+      {
+        "permission": "read:pages",
+        "permissionGroups": [
+          "664df13b3b661915128e5b91",
+          "664df13b3b661915128e5b90",
+          "664df13b3b661915128e5b92"
+        ]
+      },
+      {
+        "permission": "delete:pages",
+        "permissionGroups": [
+          "664df13b3b661915128e5b91",
+          "664df13b3b661915128e5b90"
+        ]
+      }
+    ],
+    "lastUpdatedTime": 1720089363,
+    "defaultResources": {
+      "applicationId": "664df13b3b661915128e5b94",
+      "pageId": "664df13b3b661915128e5b96",
+      "branchName": "master"
+    }
   },
   "deleted": false,
   "gitSyncId": "664df13b3b661915128e5b94_7a94c1a9-2eaf-4075-b876-1502ecf5177c"

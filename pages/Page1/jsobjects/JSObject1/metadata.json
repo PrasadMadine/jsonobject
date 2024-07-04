@@ -6,12 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [
-      {
-        "name": "value",
-        "value": "\"\""
-      }
-    ],
+    "variables": [],
     "userPermissions": []
   },
   "id": "Page1_JSObject1",
