@@ -1,115 +1,32 @@
 {
+  "gitSyncId": "664df13b3b661915128e5b94_7a94c1a9-2eaf-4075-b876-1502ecf5177c",
   "unpublishedPage": {
-    "id": "664df13b3b661915128e5b96",
-    "name": "Page1",
-    "slug": "page1",
-    "applicationId": "664df13b3b661915128e5b94",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
+          "bottomRow": 930,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
           "rightColumn": 4896,
           "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 930,
-          "containerStyle": "none",
           "snapRows": 124,
-          "parentRowSpace": 1,
+          "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_Select_public_users1",
-              "name": "Select_public_users1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'id'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1_Total_record_public_users1",
-              "name": "Total_record_public_users1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Page1",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [
-      "create:pageActions",
-      "delete:pages",
-      "manage:pages",
-      "read:pages"
-    ],
-    "policies": [
-      {
-        "permission": "create:pageActions",
-        "permissionGroups": [
-          "664df13b3b661915128e5b91",
-          "664df13b3b661915128e5b90"
-        ]
-      },
-      {
-        "permission": "manage:pages",
-        "permissionGroups": [
-          "664df13b3b661915128e5b91",
-          "664df13b3b661915128e5b90"
-        ]
-      },
-      {
-        "permission": "read:pages",
-        "permissionGroups": [
-          "664df13b3b661915128e5b91",
-          "664df13b3b661915128e5b90",
-          "664df13b3b661915128e5b92"
-        ]
-      },
-      {
-        "permission": "delete:pages",
-        "permissionGroups": [
-          "664df13b3b661915128e5b91",
-          "664df13b3b661915128e5b90"
-        ]
-      }
-    ],
-    "lastUpdatedTime": 1720089363,
-    "defaultResources": {
-      "applicationId": "664df13b3b661915128e5b94",
-      "pageId": "664df13b3b661915128e5b96",
-      "branchName": "master"
-    }
-  },
-  "deleted": false,
-  "gitSyncId": "664df13b3b661915128e5b94_7a94c1a9-2eaf-4075-b876-1502ecf5177c"
+    "name": "Page1",
+    "slug": "page1"
+  }
 }
